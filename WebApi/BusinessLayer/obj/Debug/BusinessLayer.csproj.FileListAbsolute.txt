@@ -1,0 +1,17 @@
+C:\Users\SS\source\repos\WebApi\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\SS\source\repos\WebApi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\Model.dll
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\Model.pdb
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\Model.dll.config
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\SS\source\repos\WebApi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\SS\source\repos\WebApi\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\SS\source\repos\WebApi\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SS\source\repos\WebApi\BusinessLayer\bin\Debug\Newtonsoft.Json.xml

@@ -1,0 +1,54 @@
+
+    <p>
+      <a [routerLink]="['/app-student-list']">Back to List</a>
+     </p>
+   <h2>  <p>{{title}}</p></h2> 
+<form [formGroup] = "studentForm" (ngSubmit)="save()" #formDir="ngForm">
+      
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <input class="form-control" type="text" formControlName="firstname" required placeholder="First Name">                
+           <span class="text-danger" *ngIf="firstname.invalid && formDir.submitted">  
+           FirstName is required.  
+        </span> 
+    </div>
+           
+        <div class="form-group col-md-4">
+            <input class="form-control" type="text" formControlName="lastname" required placeholder="Last Name">       
+           
+           <span class="text-danger" *ngIf="lastname.invalid && formDir.submitted">  
+         LastName is required.  
+        </span> 
+    </div>
+
+        <div class="form-group col-md-4">
+            <input class="form-control" type="text" formControlName="faculty" required placeholder="Faculty">       
+          
+           <span class="text-danger" *ngIf="faculty.invalid && formDir.submitted">  
+         Faculty is required.  
+        </span> 
+    </div>
+
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <input class="form-control" type="text" formControlName="phone" required placeholder="Phone">       
+           
+           <span class="text-danger" *ngIf="phone.invalid && formDir.submitted">  
+         Phone is required.  
+        </span> 
+    </div>
+        <div class="form-group col-md-4">
+            <input class="form-control" type="text" formControlName="email" required placeholder="Email ">       
+         
+           <span class="text-danger" *ngIf="email.invalid && formDir.submitted">  
+         Email is required.  
+        </span> 
+    </div>
+    </div>
+        <div class="form-group">  
+            <button type="submit" class="btn">Save</button>  
+            <button class="btn" (click)="cancel()">Cancel</button>  
+        </div> 
+       
+</form>

@@ -1,0 +1,37 @@
+<h1>Student List</h1>
+
+<p>
+  <a [routerLink]="['/app-student']">Create New</a>
+</p>
+  
+<p *ngIf="!studentList"><em>Loading...</em></p>  
+  
+  
+  
+<table class='table table-bordered' *ngIf="studentList">  
+    <thead>  
+        <tr>  
+           
+            <th>ID</th>  
+            <th>Name</th>  
+            <th>Faculty</th>           
+            <th>Phone</th>  
+            <th>Email</th> 
+            <td>Action</td>
+        </tr>  
+    </thead>  
+    <tbody>  
+        <tr *ngFor="let list of studentList">  
+            <td>{{ list.StudentId }}</td>  
+            <td>{{ list.FirstName +' '+list.LastName }}</td>  
+            <td>{{ list.Faculty }}</td>  
+            <td>{{ list.Phone }}</td>  
+            <td>{{ list.Email }}</td>  
+           
+            <td>
+                    <a [routerLink]="['/student/edit/', list.StudentId]">Edit</a> |
+                    <a (click)="delete(list.StudentId)">Delete</a>  
+            </td>  
+        </tr>  
+    </tbody>  
+</table>  
